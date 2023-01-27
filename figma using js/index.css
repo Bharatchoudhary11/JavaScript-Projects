@@ -1,0 +1,58 @@
+
+.container{
+    position: relative;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+}
+.home{
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+/* identical to box height, or 90% */
+
+    text-align: center;
+
+    color: #dc1a1a;
+}
+.guest{
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 340px;
+    top: 68px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+
+    color: #dc1a1a;
+}
+#score-btn-3{
+    background-color: green;
+}
+#score-btn-2{
+    background-color: greenyellow;
+}
+#score-btn-1{
+    background-color: blueviolet;
+}
+#home-score{
+    color: rgba(7, 210, 75, 0.247);
+}
+#guest-score{
+    color: rgba(7, 210, 75, 0.247);
+}
